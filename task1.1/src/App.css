@@ -1,0 +1,26 @@
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.box {
+
+  border: 2px solid black;
+  border-radius: 20%;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+  background-color: white;
+  color: black;
+  padding: 20px;
+  text-align: left;
+  flex: 1 1 calc(33.333% - 20px); 
+  box-sizing: border-box;
+  font-size: 1em;
+}

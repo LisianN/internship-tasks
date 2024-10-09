@@ -1,0 +1,40 @@
+.body{
+    padding: 0%;
+    width: 1000px;
+}
+.toggle-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    margin-left: 500px;
+  }
+  
+  .inner-toggle-container {
+    margin-top: 10px;
+    padding-left: 20px;
+    border-left: 2px solid #007bff;
+  }
+  
+  .toggle-button {
+    background-color: #9cbcde;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .toggle-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .toggle-text {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+  }
+  
